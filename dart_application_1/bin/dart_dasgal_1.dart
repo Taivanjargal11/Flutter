@@ -5,14 +5,14 @@ import 'dart:math';
 void main() {
   var x0 = 0;
   var y0 = 0;
-  print("x:");
+  print('x:');
   double? x = double.parse(stdin.readLineSync()!);
-  print("y:");
+  print('y:');
   double? y = double.parse(stdin.readLineSync()!);
   print(length(x, y, x0, y0));
 }
 
-double length(x, y, x0, y0) {
+double length(double x, double y, int x0, int y0) {
   var n = sqrt(pow((x - x0), 2) + pow((y - y0), 2));
   if (n >= 0 && n <= 1) {
     return 10;

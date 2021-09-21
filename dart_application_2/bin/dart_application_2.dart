@@ -13,8 +13,6 @@ void main() {
       arr.add(i);
     }
   }
-  // var lst = List.filled(s, null, growable: false);
-  // print(lst.length);
 
   for (i = 0; i < arr.length; i++) {
     if (arr[i] == 3) {

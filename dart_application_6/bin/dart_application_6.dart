@@ -10,7 +10,7 @@ void main() {
     'Санчир': toSeconds(29.447498),
     'Далай ван': toSeconds(84.016846)
   };
-  print('toSecondsee oruul:');
+  print('Секундээ оруул:');
   var n = double.parse(stdin.readLineSync()!);
   list.forEach((key, value) {
     var value1 = num.parse((n / value).toStringAsFixed(2));
